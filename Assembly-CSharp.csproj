@@ -61,7 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MoveInfo.cs" />
+    <Compile Include="Assets\Scripts\Highlight.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Disc.cs" />
     <Compile Include="Assets\Scripts\Position.cs" />
     <Compile Include="Assets\Scripts\GameState.cs" />
   </ItemGroup>

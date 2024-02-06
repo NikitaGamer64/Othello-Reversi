@@ -1,9 +1,9 @@
-public class Position 
+public class Position
 {
     public int Row { get; }
     public int Col { get; }
 
-    public Position (int row, int col)
+    public Position(int row, int col)
     {
         Row = row;
         Col = col;
@@ -11,7 +11,7 @@ public class Position
 
     public override bool Equals(object obj)
     {
-        if(obj is Position other)
+        if (obj is Position other)
         {
             return Row == other.Row && Col == other.Col;
         }

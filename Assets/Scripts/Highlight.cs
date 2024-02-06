@@ -9,7 +9,7 @@ public class Highlight : MonoBehaviour
     private Color mouseOverColor;
 
     private Material material;
-    
+
     private void Start()
     {
         material = GetComponent<MeshRenderer>().material;
